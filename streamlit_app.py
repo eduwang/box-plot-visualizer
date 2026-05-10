@@ -75,3 +75,14 @@ st.plotly_chart(fig, use_container_width=True)
 
 st.subheader("선택한 데이터 미리보기")
 st.write(selected_values)
+
+st.markdown("---")
+st.markdown(
+        """
+<div style="text-align: center; padding: 0.6rem 0 0.3rem 0;">
+    <span style="font-size: 0.95rem; color: #6b7280;">Made by Hyowon Wang</span>
+    <a href="https://hyowonwang.netlify.app" target="_blank" style="text-decoration: none; margin-left: 0.45rem; font-size: 1.1rem;" title="hyowonwang.netlify.app">🌐</a>
+</div>
+""",
+        unsafe_allow_html=True,
+)
